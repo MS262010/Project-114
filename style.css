@@ -1,0 +1,25 @@
+@keyframes example{
+    0%{box-shadow: 0px 0px 70px #b622fa;}
+    25%{box-shadow: 0px 0px 70px #f82797;}
+    50%{box-shadow: 0px 0px 70px #f8591a;}
+    75%{box-shadow: 0px 0px 70px #f3233f;}
+    100%{box-shadow: 0px 0px 70px #b622fa}
+}
+canvas{
+    animation-name:example ;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+h3{
+    font-size: 25px !important;
+    font-family: 'Calistoga', cursive;
+}
+button{
+    background-color: rgb(17, 247, 139);
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px !important;
+}
+button:hover{
+    background-color: rgb(15, 155, 90);
+    transform: scale(0.9);
+}
